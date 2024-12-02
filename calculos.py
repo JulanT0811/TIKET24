@@ -4,8 +4,8 @@ def calcularCuota(monto,interes,meses):
     cuotamensual=(monto*inter)/(1-(1+inter)**(-meses))
     return cuotamensual
 
-import datetime
 
+import datetime
 def calcularEdad (fecha):
     añoactual = datetime.datetime.now().year 
     if fecha >= 0 and fecha <= añoactual:
@@ -13,7 +13,8 @@ def calcularEdad (fecha):
         return edad
     else:
         return -1
-    
+
+
 def determinarResultadosIMC(imc):
     if 0 <= imc < 16:
         return "Delgadez severa"
