@@ -34,6 +34,25 @@ def determinarResultadosIMC(imc):
         return "Obesidad Grado 3"
     else:
         return "IMC fuera de rango"
-    
+
+
+def mayoractual(a, b, c):
+    return max(a, b, c)
+
+valor1 = 10  
+result1 = mayoractual( 10, 20, 30)
+print(f"El mayor entre 10, 20 y 30 es: {result1}")
+
+result2 = mayoractual(100, 200, 50)
+print(f"El mayor entre 100, 200 y 50 es: {result2}")
+
+result3 = mayoractual(100, 50, 90)
+print(f"El mayor entre 100, 50 y 90 es: {result3}")
+
+result4 = mayoractual(40, 50, 50)
+print(f"El mayor entre 40, 50 y 50 es: {result4}")
+
+result5 = mayoractual(80, 80, 20)
+print(f"El mayor entre 80, 80 y 20 es: {result5}")
 
 
