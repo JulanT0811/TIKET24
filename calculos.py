@@ -56,3 +56,32 @@ result5 = mayoractual(80, 80, 20)
 print(f"El mayor entre 80, 80 y 20 es: {result5}")
 
 
+
+
+def menor_actual(a, b, c, d):
+    return min(a, b, c, d)
+
+menorActual= float("inf")  
+
+result1 = menor_actual(10, 20, 30, 40)
+menorActual = min(menorActual, result1)
+print(f"El menor entre 10, 20, 30 y 40 es: {result1}")
+
+result2 = menor_actual(100, 200, 50, 0)
+menorActual = min(menorActual, result2)
+print(f"El menor entre 100, 200, 50 y 0 es: {result2}")
+
+result3 = menor_actual(100, 50, 30, 40)
+menorActual = min(menorActual, result3)
+print(f"El menor entre 100, 50, 30 y 40 es: {result3}")
+
+result4 = menor_actual(20, 10, 5, 5)
+menorActual = min(menorActual, result4)
+print(f"El menor entre 20, 10, 5 y 5 es: {result4}")
+
+result5 = menor_actual(100, 80, 90, 200)
+menorActual = min(menorActual, result5)
+print(f"El menor entre 100, 80, 90 y 200 es: {result5}")
+
+print(f"El menor valor encontrado es: {menorActual}")
+
